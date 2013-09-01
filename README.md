@@ -1,5 +1,8 @@
+py-spellcheck
+=============
 Based on http://norvig.com/spell-correct.html
 
+A simple pure python spellcheck library for a custom (small) dictionary. 
 Config
 ======
 Assign `DICTIONARY` inside `config.py` to your dictionary file.
