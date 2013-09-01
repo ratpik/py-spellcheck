@@ -1,0 +1,107 @@
+# emacs temp files
+##################
+*~
+\#*
+
+# CMake stuff
+#############
+
+CMakeCache.txt
+Makefile
+CMakeFiles/
+cmake_install.cmake
+C*.cmake
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+!lib*.so
+*.omod
+*.pyc
+build/
+dist/
+obj/
+
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+*.apk
+
+# Logs and databases #
+######################
+*.log
+.svn
+dumps/
+
+# OS generated files #
+######################
+.DS_Store?
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+._*
+
+# Eclipse stuff #
+#################
+.metadata
+.classpath
+lint.xml
+bin/
+R.java
+doc/
+.settings/
+proguard/
+BuildConfig.java
+gen/
+
+# J2ME settings #
+#################
+
+project.properties
+private.properties
+private.xml
+
+# VirtalEnv #
+#############
+venv
+*.pyc
+
+# Django #
+##########
+local_settings.py
+media/
+static/assets/
+
+#Sphinx-docs#
+#############
+.doctrees/
+
+#Ember#
+#######
+node_modules/
+
+#Foreman#
+##########
+.env
+
+#Celery#
+#########
+celerybeat-schedule
+celeryev.pid
+celerymon.pid
+celerybeat.pid
