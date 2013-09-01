@@ -1,3 +1,5 @@
+Based on http://norvig.com/spell-correct.html
+
 Config
 ======
 Assign `DICTIONARY` inside `config.py` to your dictionary file.
