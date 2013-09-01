@@ -21,7 +21,8 @@ Kolkata
 Usage
 =====
 
-
+```
 >>> from spellcheck import correct
 >>> correct('Mumbia')
 'mumbai'
+```
